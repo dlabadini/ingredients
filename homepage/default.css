@@ -1,0 +1,573 @@
+.nav-link,
+.nav-menu-item {
+    color: #54585E;
+    white-space: nowrap;
+    text-decoration: none
+}
+.nav-button,
+.nav-button:hover,
+.nav-link,
+.nav-link:hover,
+.nav-menu-item {
+    text-decoration: none
+}
+.nav-button,
+.nav-link,
+.ui-Copy h4 {
+    text-transform: lowercase
+}
+.Footer,
+svg:not(:root) {
+    overflow: hidden
+}
+.footer-section,
+html {
+    box-sizing: border-box;
+}
+.navigation {
+    z-index: 10;
+    position: relative
+}
+.nav-logo a {
+    background-image: url(libraries/navigation/images/segment-logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    height: 20px;
+    text-indent: -9999px;
+    width: 84px;
+    margin-right: 20px
+}
+.nav-body,
+.nav-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox
+}
+.nav-left {
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.nav-body {
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 970px;
+    padding: 30px 0;
+    margin: 0 auto
+}
+.nav-links {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+.nav-links>* {
+    margin-right: 15px
+}
+.nav-link {
+    line-height: 20px;
+    -webkit-transition: opacity .2s ease-in;
+    transition: opacity .2s ease-in;
+    opacity: .7;
+    font: 400 16px/20px 'Freight Sans Small Caps', Verdana, Geneva, sans-serif;
+    font-weight: 400
+}
+.nav-link:hover {
+    opacity: 1;
+    color: #54585E
+}
+.nav-trigger {
+    background: url(../../../client/navigation/images/sprite.svg) -36px -102px no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    height: 9px;
+    position: relative;
+    vertical-align: middle;
+    width: 16px;
+    -webkit-transform: scale(.8);
+    transform: scale(.8)
+}
+.nav-dropdown {
+    cursor: pointer;
+    line-height: 0;
+    position: relative
+}
+.nav-menu {
+    position: absolute;
+    top: 30px;
+    left: 45px;
+    z-index: -1;
+    margin-top: 0;
+    padding: 10px 0;
+    background: #fff;
+    border-radius: 4px;
+    opacity: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    pointer-events: none;
+    min-width: 80px
+}
+.nav-menu.open {
+    box-shadow: 0 1px 3px rgba(205, 190, 173, .53);
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 10
+}
+.nav-menu-item {
+    display: block;
+    font-family: 'Freight Sans', Verdana, Geneva, sans-serif;
+    line-height: 27px;
+    font-size: 14px;
+    padding: 0 25px 0 15px
+}
+.nav-menu-item:hover {
+    color: #3CC76A;
+    background: rgba(60, 199, 106, .05);
+    text-decoration: none
+}
+.nav-button {
+    background-color: transparent;
+    border-radius: 50px;
+    border: 1px solid #3CC76A;
+    color: #3CC76A;
+    display: inline-block;
+    font-family: 'Freight Sans Small Caps', Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 9px 15px
+}
+.navigation--light {
+    background: 0 0
+}
+.navigation--light .nav-logo a {
+    background-image: url(../../../client/navigation/images/segment-logo-white.svg)
+}
+.navigation--light .nav-link {
+    color: #fff
+}
+.navigation--light .nav-button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, .2)
+}
+.ui-Heading,
+.ui-Heading[color=dark] {
+    color: #54585E
+}
+.ui-Heading {
+    display: block;
+    font-family: 'Freight Sans', Verdana, Geneva, sans-serif;
+    font-weight: 400
+}
+.ui-Heading[size=small] {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Freight Sans Small Caps', Verdana, Geneva, sans-serif;
+    text-transform: lowercase
+}
+.ui-Heading[size=large] {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400
+}
+.ui-Heading[size=huge] {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 300
+}
+.ui-Heading[size=h1] {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 300
+}
+.ui-Heading[size=h2] {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 300
+}
+.ui-Heading[size=h3] {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300
+}
+.ui-Heading[size=h4] {
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 400
+}
+.ui-Heading[size=h5] {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500
+}
+.ui-Heading[color=pine] {
+    color: #089972
+}
+.ui-Heading[color=light] {
+    color: #707479
+}
+.ui-Heading[color=inverse] {
+    color: #FCFAF7
+}
+.ui-Heading[margin=small] {
+    margin-bottom: 5px
+}
+.ui-Heading[margin=medium] {
+    margin-bottom: 10px
+}
+.ui-Heading[margin=large] {
+    margin-bottom: 20px
+}
+.ui-Heading[margin=huge] {
+    margin-bottom: 30px
+}
+.ui-Copy {
+    font: 400 16px/21px 'Freight Sans', Verdana, Geneva, sans-serif;
+    color: #54585E
+}
+.ui-Copy.medium {
+    font: 400 18px/27px 'Freight Sans', Verdana, Geneva, sans-serif;
+    color: #54585E
+}
+.ui-Copy.tiny {
+    font: 400 14px/18px 'Freight Sans', Verdana, Geneva, sans-serif;
+    color: #54585E
+}
+.ui-Copy.center,
+.ui-Copy.justify,
+.ui-Copy.left,
+.ui-Copy.right {
+    text-align: left
+}
+.ui-Copy p+p {
+    margin-top: 10px
+}
+.ui-Copy a {
+    color: #3CC76A;
+    text-decoration: underline
+}
+.ui-Copy strong {
+    font-weight: 500;
+    color: #54585E
+}
+.ui-Copy code,
+.ui-Copy>pre {
+    background: #FCFAF7;
+    font: 400 13px/22px 'Droid Sans Mono', monospace
+}
+.ui-Copy ul {
+    list-style: disc;
+    margin: 10px 0
+}
+.ui-Copy li {
+    margin: 5px 0
+}
+.ui-Copy>pre {
+    display: block;
+    padding: 15px;
+    white-space: pre;
+    margin: 10px 0;
+    border: 1px solid #f7f2e7;
+    border-radius: 4px
+}
+.ui-Copy hr {
+    background: rgba(204, 190, 173, .5);
+    border: 0;
+    height: 1px;
+    margin: 30px 0
+}
+.ui-Copy h1 {
+    color: #54585E;
+    margin-bottom: 7px;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 300
+}
+.ui-Copy h2,
+.ui-Copy h3 {
+    margin-bottom: 5px;
+    font-weight: 400
+}
+.ui-Copy h2 {
+    color: #54585E;
+    margin-top: 20px;
+    font-size: 27px;
+    line-height: 36px
+}
+.ui-Copy h3,
+.ui-Copy h4 {
+    color: #54585E;
+    margin-top: 20px;
+    font-size: 20px
+}
+.ui-Copy h3 {
+    line-height: 30px
+}
+.ui-Copy h4 {
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'Freight Sans Small Caps', Verdana, Geneva, sans-serif
+}
+.ui-Copy h5,
+.ui-Copy h6 {
+    color: #54585E;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 400
+}
+.ui-Copy h5 {
+    font-size: 18px;
+    line-height: 24px
+}
+.ui-Copy h6 {
+    font-size: 16px;
+    line-height: 21px
+}
+.Footer {
+    padding: 50px 0 100px
+}
+@media (max-width: 900px) {
+    .Footer {
+        padding-top: 0;
+        padding-bottom: 15px
+    }
+    .Footer .Page {
+        width: 100%;
+        padding: 0
+    }
+    .footer-logo {
+        margin: 0 auto
+    }
+}
+.footer-logo {
+    background: url(../../../client/footer/logo.svg);
+    display: inline-block;
+    height: 20px;
+    text-indent: -9999px;
+    width: 83px
+}
+.Footer address {
+    font-style: normal
+}
+.Footer .ui-Copy a {
+    text-decoration: none!important
+}
+.Footer a:hover {
+    color: #089972
+}
+.footer-section {
+    float: left
+}
+.footer-section--large {
+    width: 25%
+}
+@media (max-width: 900px) {
+    .footer-section {
+        display: inline-block;
+        padding: 1rem 0;
+        text-align: center
+    }
+    .footer-section--large {
+        width: 100%
+    }
+}
+.footer-section-vertical {
+    width: 16.6666667%
+}
+.footer-section-vertical:first-of-type {
+    width: 23%
+}
+.Footer-title {
+    letter-spacing: .05em;
+    font-weight: 500;
+    font-size: 15px;
+    color: #54585E;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin: 6px 0 15px
+}
+.footer-section a {
+    display: block;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 7px
+}
+.footer-legal,
+.footer-legal li {
+    display: inline-block
+}
+.footer-legal {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    margin-top: 25%;
+    padding-bottom: 25px;
+}
+blockquote,
+body,
+dd,
+dl,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+p,
+pre,
+ul {
+    margin: 0
+}
+.footer-legal li {
+    padding-right: 20px
+}
+@media (max-width: 900px) {
+    .footer-section-vertical {
+        border-top: none;
+        width: 50%
+    }
+    .footer-section-vertical:first-of-type {
+        width: 100%
+    }
+    .footer-legal {
+        border-top: 1px solid rgba(204, 190, 173, .5);
+        margin-left: 0;
+        margin-top: 0;
+        padding-top: 20px;
+        width: 100%
+    }
+    .footer-legal li {
+        display: block
+    }
+}
+button,
+fieldset,
+iframe,
+img,
+legend {
+    border: 0
+}
+button,
+fieldset,
+legend,
+ol,
+td,
+th,
+ul {
+    padding: 0
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-light.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-light.woff) format('woff');
+    font-style: normal;
+    font-weight: 200
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-light-italic.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-light-italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 200
+}
+@font-face {
+    font-family: 'Freight Sans Small Caps';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-light-small-caps.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-light-small-caps.woff) format('woff');
+    font-style: normal;
+    font-weight: 200
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-book.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-book.woff) format('woff');
+    font-style: normal;
+    font-weight: 400
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-book-italic.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-book-italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 400
+}
+@font-face {
+    font-family: 'Freight Sans Small Caps';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-book-small-caps.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-book-small-caps.woff) format('woff');
+    font-style: normal;
+    font-weight: 400
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-medium.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-medium.woff) format('woff');
+    font-style: normal;
+    font-weight: 500
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-medium-italic.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-medium-italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 500
+}
+@font-face {
+    font-family: 'Freight Sans Small Caps';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-medium-small-caps.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-medium-small-caps.woff) format('woff');
+    font-style: normal;
+    font-weight: 500
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-bold.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-bold.woff) format('woff');
+    font-style: normal;
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-bold-italic.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-bold-italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Freight Sans Small Caps';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-bold-small-caps.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-bold-small-caps.woff) format('woff');
+    font-style: normal;
+    font-weight: 700
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-black.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-black.woff) format('woff');
+    font-style: normal;
+    font-weight: 900
+}
+@font-face {
+    font-family: 'Freight Sans';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-black-italic.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-black-italic.woff) format('woff');
+    font-style: italic;
+    font-weight: 900
+}
+@font-face {
+    font-family: 'Freight Sans Small Caps';
+    src: url(libraries/fonts/freight-sans/woff2/freight-sans-black-small-caps.woff2) format('woff2'), url(libraries/fonts/freight-sans/woff/freight-sans-black-small-caps.woff) format('woff');
+    font-style: normal;
+    font-weight: 900
+}
+@font-face {
+    font-family: 'Droid Sans Mono';
+    src: url(libraries/fonts/droid-sans-mono/woff2/droid-sans-mono.woff2) format('woff2'), url(libraries/fonts/droid-sans-mono/woff/droid-sans-mono.woff) format('woff');
+    font-style: normal;
+    font-weight: 400
+}

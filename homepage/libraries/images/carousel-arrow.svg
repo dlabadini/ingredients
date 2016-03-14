@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="9px" height="17px" viewBox="0 0 9 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Home" sketch:type="MSArtboardGroup" stroke="#CCBEAD" stroke-width=".4" transform="translate(-860.000000, -5013.000000)" fill="#CCBEAD">
+            <g id="CTA" sketch:type="MSLayerGroup" transform="translate(-79.000000, 4800.000000)">
+                <g id="Buttons-light" transform="translate(667.000000, 195.000000)" sketch:type="MSShapeGroup">
+                    <g id="Continue" transform="translate(136.000000, 0.000000)">
+                        <path d="M136.612,18.48 L137.03,18.062 L144.158,25.19 L137.03,32.318 L136.612,31.9 L143.322,25.19 L136.612,18.48 Z" id="arrow-green"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

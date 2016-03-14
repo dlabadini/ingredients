@@ -1,0 +1,57 @@
+#page{
+	padding-left:0px;
+	padding-right:0px;
+}
+#page .title{
+	margin-top:20px;
+	margin-bottom:40px;
+	text-align:center;
+	font-family: Gotham-Medium, Verdana, OpenSans-Regular, sans;
+	color:#222;
+	text-transform: uppercase;
+}
+
+#page hr{
+	border-top: 2px solid rgb(210,210,210);
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+#team .teamCard{
+	text-align:center;
+	min-height:225px;
+}
+#team .teamCard img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:100%;
+	width:80%;
+}
+
+#team .teamCard span{
+	font-family: proxima, OpenSans-Regular, sans;
+	width:100%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.name {
+font-size: 1.1em;
+  line-height: 1.2em;
+  color: #222;
+  font-weight: 600;
+  margin: 12px 0 0px 0;
+}
+
+.role{
+  font-size: 0.8em;
+  color: #222;
+}
+
+/* Prevent team cards from getting too close on specific sizes */
+@media (max-width:991px) and (min-width:462px) {
+    #team .teamCard {
+        margin-bottom: 20px;
+    }
