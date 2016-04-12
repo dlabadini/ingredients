@@ -1,0 +1,54 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login | Avenue</title>
+    <meta name="description" content="">
+  <meta name="viewport" content="width=1200" />
+  <meta name="google-site-verification" content="" />
+  <link rel="stylesheet" href="libraries/css/normalize.css">
+  <link rel="stylesheet" href="public/css/default.css">
+  <link rel="stylesheet" href="public/css/home.css">
+  <link rel="stylesheet" href="public/css/login.css">
+  <link rel="stylesheet" href="public/css/signup.css">
+</head>
+<main id="signup">
+    <div class="Block" center="true">
+        <h3 class="ui-Heading" id="join-segment" size="h3" margin="large">Join Avenue</h3>
+        <form class="Form" novalidate="true">
+            <div class="FormField InputField">
+                <label class="FormField-label" for="name">Name</label>
+                <noscript></noscript>
+                <div class="FormField-controls">
+                    <input id="name" name="name" placeholder="Enter your full name" v-model="firstName" @keyup.enter="isFirstBlank" type="text" minlength="2" required="true">
+                </div>
+            </div>
+            <div class="FormField InputField">
+                <label class="FormField-label" for="email">Email</label>
+                <div class="FormField-controls">
+                    <input id="email" name="email" placeholder="Enter your email address" v-model="emailAddress" @keyup.enter="verifyEmail" type="email" required="true">
+                </div>
+            </div>
+            <div class="FormField InputField">
+                <label class="FormField-label" for="password">Password</label>
+                <div class="FormField-controls">
+                    <input id="password" name="password" placeholder="Enter a password" type="password" minlength="8" required="true">
+                </div>
+            </div>
+            <div class="Space" style="height: 20px"></div>
+            <div class="ui-Copy">
+                <p>Signing up signifies you’ve read and agree to our <a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a>.</p>
+            </div>
+            <div class="FormFooter">
+                <button class="ui-Button" size="large" type="submit" @blur="confirmSubmit()" @keyup.enter="confirmSubmit()" @keyup.esc="cancelEdit()">Create Your Account</button>
+            </div>
+        </form>
+        <div class="ActionText"><span class="ActionText-text">Already have an account?</span><a href="login.html" class="ActionText-link">Log in<span class="ActionText-arrow"></span></a>
+        </div>
+    </div>
+</main>
+    <script src="node_modules/vue/dist/vue.js"></script>
+    <script src="/horizon/horizon.js"></script>
+    <script src="js/store-user.js"></script>
+    <script src="js/app-user.js"></script>
+    <script src="js/routes.js"></script>
+</html>

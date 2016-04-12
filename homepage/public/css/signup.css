@@ -1,0 +1,38 @@
+.SignupPage {
+    max-width: 400px;
+    margin: 100px auto
+}
+#signup {
+    min-height: 100%
+}
+#signup,
+.ui-ApiCall,
+.ui-Code,
+.ui-IconButton,
+.ui-Switch {
+    overflow: hidden
+}
+.Block{
+  padding-top: 75px;
+  padding-bottom: 75px;
+  max-width: 400px;
+}
+.Block[center] {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Block[hidden] {
+    display: none
+}
+.Block,
+.ui-Button[icon],
+.ui-Code {
+    position: relative
+}
+.Block,
+.ui-Button[extras*=fluid] {
+    width: 100%
+}
+.Space {
+    min-height: 1px
+}

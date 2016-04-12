@@ -1,0 +1,158 @@
+
+#login {
+    width: 400px;
+    margin: 100px auto
+}
+.FormHeader {
+    margin-bottom: 30px
+}
+.FormField+.FormField,
+.FormFooter {
+    margin-top: 20px
+}
+.FormField {
+    display: block;
+    font-size: 20px
+}
+.FormField-label {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #54585E;
+    display: block;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Freight Sans Small Caps',Verdana,Geneva,sans-serif;
+    text-transform: lowercase;
+}
+.FormField-controls input,
+.FormField-controls select,
+.FormField-controls textarea {
+    background: #fff;
+    color: #707479;
+    border: 1px solid #E8E0D1;
+    padding: 9px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    box-sizing: border-box
+}
+.FormField-controls input:focus {
+    outline: 0;
+    border-color: #3CC76A;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(92, 204, 92, .5);
+    color: #707479
+}
+.FormField.has-error input:invalid {
+    border-color: #EB5C2C
+}
+.FormField.has-error input:invalid:focus {
+    box-shadow: 0 0 4px 0 #EB5C2C
+}
+.FormField-controls input:disabled,
+.FormField-controls select:disabled,
+.FormField-controls textarea:disabled {
+    background-color: #FAFAFA;
+    color: #707479
+}
+.FormField-controls input::-webkit-input-placeholder {
+    font-weight: 400;
+    color: #707479;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    opacity: .5
+}
+.FormField-controls input::-moz-placeholder {
+    font-weight: 400;
+    color: #707479;
+    transition: color .2s;
+    opacity: .5
+}
+.FormField-controls input:-ms-input-placeholder {
+    font-weight: 400;
+    color: #707479;
+    transition: color .2s;
+    opacity: .5
+}
+.FormField-controls input::placeholder {
+    font-weight: 400;
+    color: #707479;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    opacity: .5
+}
+.FormField-controls input::-webkit-input-placeholder:focus {
+    color: #FAFAFA
+}
+.FormField-controls input::-moz-placeholder:focus {
+    color: #FAFAFA
+}
+.FormField-controls input:-ms-input-placeholder:focus {
+    color: #FAFAFA
+}
+.FormField-controls input::placeholder:focus {
+    color: #FAFAFA
+}
+.FormField-controls textarea {
+    padding: 12px 15px;
+    min-height: 150px
+}
+.monospace .FormField-controls input {
+    font-family: inconsolata, Inconsolata, monospace;
+    font-size: 13px;
+    line-height: 18px
+}
+.FormField-controls input,
+.FormField-controls select,
+.FormField-controls textarea,
+.FormField-error,
+.FormField-hint {
+    font-family: 'Freight Sans', Verdana, Geneva, sans-serif
+}
+.FormField-error {
+    color: #EB5C2C;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    line-height: 1
+}
+.FormField-error a {
+    font-weight: 700
+}
+.ui-Button[modifier=secondary] {
+    background: #fff;
+    border: none;
+    color: #707479;
+    box-shadow: 0 0 0 1px #E3E4E6 inset
+}
+.ui-Button[modifier=secondary]:active,
+.ui-Button[modifier=secondary]:focus,
+.ui-Button[modifier=secondary]:hover {
+    color: #54585E;
+    box-shadow: 0 0 0 1px #E3E4E6 inset
+}
+.ui-Button[modifier=secondary]:active,
+.ui-Button[modifier=secondary]:focus {
+    box-shadow: 0 0 0 1px #3CC76A inset
+}
+.ActionText {
+    margin: 35px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: 'Freight Sans', Verdana, Geneva, sans-serif
+}
+.ActionText-text {
+    color: #707479
+}
+.ActionText-link {
+    left: 10px;
+    color: #3CC76A;
+    cursor: pointer;
+    position: relative
+}
